@@ -56,5 +56,5 @@ print(f"✅ Success! Generated a matrix with {df.shape[0]} rows and {df.shape[1]
 print(df.head())
 
 # Save dataset next to your script
-df.to_csv("football_ml_dataset.csv", index=False)
+df.to_csv("football_ml_dataset2.csv", index=False)
 print("\n💾 Dataset saved as 'football_ml_dataset.csv'!")
