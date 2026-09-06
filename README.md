@@ -1,15 +1,18 @@
 <div align="center">
+  <!-- Badges -->
   <img src="https://shields.io" alt="Python Version" />
   <img src="https://shields.io" alt="Scikit-Learn" />
   <img src="https://shields.io" alt="License" />
-</div>
 
-<br />
+  <br /><br />
 
-<div align="center">
+  <!-- Main Title -->
   <h1>⚽ Football Market Value Predictor</h1>
   <p><strong>An Intelligent Machine Learning Inference Pipeline using Column Transformers & Advanced Feature Alignment</strong></p>
 </div>
+
+---
+
 
 ---
 
