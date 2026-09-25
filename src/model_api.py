@@ -52,7 +52,6 @@ def predict():
     
         features = pd.DataFrame([data])
     
-            # Prediction
         prediction = model.predict(features)[0]
     
         return jsonify({
