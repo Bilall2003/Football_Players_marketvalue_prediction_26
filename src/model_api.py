@@ -50,7 +50,6 @@ def predict():
                     "error": "Data Missing inside request body payload."
                 }), 400
     
-            # Convert JSON dictionary into one-row DataFrame
         features = pd.DataFrame([data])
     
             # Prediction
