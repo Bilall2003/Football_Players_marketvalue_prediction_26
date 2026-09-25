@@ -2,13 +2,10 @@ import joblib
 from flask import Flask,request,jsonify
 import pandas as pd
 
-#step1: name the app
 app=Flask(__name__)
 
-# step2: load model
 model=joblib.load("football_market_value_model2.joblib")
 
-#step3: initialize what will happen when server start
 @app.route("/")
 def home():
     return "Prediction is runinng!!!!!!!!!!!!"
